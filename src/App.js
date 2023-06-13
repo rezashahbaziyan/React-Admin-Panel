@@ -4,6 +4,7 @@ import Home from './Pages/Home/Home';
 import List from './Pages/list/List';
 import Login from './Pages/login/Login';
 import New from './Pages/New/New';
+import Single from './Pages/Single/Single';
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <List />
             <Login />
             <New />
+            <Single />
         </div>
     )
 }
