@@ -5,8 +5,8 @@ const Sidebar = () => {
   return (
     <div className="Sidebar">
         <div className='top'><span className="logo">lamadmin</span></div>
-        <div className='center'>
-            
+        <hr />
+        <div className='center'> 
             <ul>
                 <li>
                     <span>Dashboard</span>
