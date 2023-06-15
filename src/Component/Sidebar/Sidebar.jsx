@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Sidebar.scss";
+// import PersonOutline from '@mui/icons-material/PersonOutline'
 
 const Sidebar = () => {
   return (
@@ -9,10 +10,10 @@ const Sidebar = () => {
         <div className='center'> 
             <ul>
                 <li>
-                    <DashboardIcon/>
                     <span>Dashboard</span>
                 </li>
                 <li>
+                    {/* <PersonOutlineIcon className="icon"/> */}
                     <span>Users</span>
                 </li>
                 <li>
@@ -44,6 +45,8 @@ const Sidebar = () => {
         <div className='bottom'>color options</div>
     </div>
   )
+
+
 }
 
 export default Sidebar
