@@ -1,6 +1,9 @@
 import React from 'react';
 import "./Sidebar.scss";
 import PersonOutlineOutlined from '@mui/icons-material/PersonOutlineOutlined'
+import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
+import StoreMallDirectoryRoundedIcon from '@mui/icons-material/StoreMallDirectoryRounded';
+import CreditCardOutlinedIcon from '@mui/icons-material/CreditCardOutlined';
 
 const Sidebar = () => {
   return (
