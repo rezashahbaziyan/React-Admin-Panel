@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Sidebar.scss";
-// import PersonOutline from '@mui/icons-material/PersonOutline'
+import PersonOutlineOutlined from '@mui/icons-material/PersonOutlineOutlined'
 
 const Sidebar = () => {
   return (
@@ -13,7 +13,7 @@ const Sidebar = () => {
                     <span>Dashboard</span>
                 </li>
                 <li>
-                    {/* <PersonOutlineIcon className="icon"/> */}
+                    <PersonOutlineOutlined className="icon"/>
                     <span>Users</span>
                 </li>
                 <li>
