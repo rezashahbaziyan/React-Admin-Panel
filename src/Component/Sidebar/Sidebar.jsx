@@ -6,6 +6,7 @@ import StoreMallDirectoryRoundedIcon from '@mui/icons-material/StoreMallDirector
 import CreditCardOutlinedIcon from '@mui/icons-material/CreditCardOutlined';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import InsertChartIcon from '@mui/icons-material/InsertChart';
+import SettingsSystemDaydreamOutlinedIcon from '@mui/icons-material/SettingsSystemDaydreamOutlined';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import SettingsIcon from '@mui/icons-material/Settings';
@@ -48,11 +49,11 @@ const Sidebar = () => {
                     <span>Notifications</span>
                 </li>
                 <li>
-                <PsychologyIcon className='icon'/>
+                <SettingsSystemDaydreamOutlinedIcon className='icon'/>
                     <span>System Health</span>
                 </li>
                 <li>
-                <SettingsIcon className='icon'/>
+                <PsychologyIcon className='icon'/>
                     <span>Logs</span>
                 </li>
                 <li>
@@ -60,7 +61,7 @@ const Sidebar = () => {
                     <span>Settings</span>
                 </li>
                 <li>
-                <PsychologyIcon className='icon'/>
+                <AccountCircleOutlinedIcon className='icon'/>
                     <span>Profile</span>
                 </li>
                 <li>
