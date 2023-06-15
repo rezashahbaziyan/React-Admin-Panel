@@ -7,6 +7,10 @@ import CreditCardOutlinedIcon from '@mui/icons-material/CreditCardOutlined';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import InsertChartIcon from '@mui/icons-material/InsertChart';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import PsychologyIcon from '@mui/icons-material/Psychology';
+import SettingsIcon from '@mui/icons-material/Settings';
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 
 const Sidebar = () => {
   return (
