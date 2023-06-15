@@ -29,43 +29,43 @@ const Sidebar = () => {
                     <span>Users</span>
                 </li>
                 <li>
-                <StoreMallDirectoryRoundedIcon className='icon'/>
+                    <StoreMallDirectoryRoundedIcon className='icon'/>
                     <span>Products</span>
                 </li>
                 <li>
-                <CreditCardOutlinedIcon className='icon'/>
+                    <CreditCardOutlinedIcon className='icon'/>
                     <span>Orders</span>
                 </li>
                 <li>
-                <LocalShippingIcon className='icon'/>
+                    <LocalShippingIcon className='icon'/>
                     <span>Delivery</span>
                 </li>
                 <li>
-                <InsertChartIcon className='icon'/>
+                    <InsertChartIcon className='icon'/>
                     <span>Stats</span>
                 </li>
                 <li>
-                <NotificationsNoneIcon className='icon'/>
+                    <NotificationsNoneIcon className='icon'/>
                     <span>Notifications</span>
                 </li>
                 <li>
-                <SettingsSystemDaydreamOutlinedIcon className='icon'/>
+                    <SettingsSystemDaydreamOutlinedIcon className='icon'/>
                     <span>System Health</span>
                 </li>
                 <li>
-                <PsychologyIcon className='icon'/>
+                    <PsychologyIcon className='icon'/>
                     <span>Logs</span>
                 </li>
                 <li>
-                <SettingsIcon className='icon'/>
+                    <SettingsIcon className='icon'/>
                     <span>Settings</span>
                 </li>
                 <li>
-                <AccountCircleOutlinedIcon className='icon'/>
+                    <AccountCircleOutlinedIcon className='icon'/>
                     <span>Profile</span>
                 </li>
                 <li>
-                <LogoutOutlinedIcon className='icon'/>
+                    <LogoutOutlinedIcon className='icon'/>
                     <span>Logout</span>
                 </li>
             </ul>
