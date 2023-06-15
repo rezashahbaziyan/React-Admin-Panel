@@ -4,6 +4,9 @@ import PersonOutlineOutlined from '@mui/icons-material/PersonOutlineOutlined'
 import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
 import StoreMallDirectoryRoundedIcon from '@mui/icons-material/StoreMallDirectoryRounded';
 import CreditCardOutlinedIcon from '@mui/icons-material/CreditCardOutlined';
+import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import InsertChartIcon from '@mui/icons-material/InsertChart';
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 
 const Sidebar = () => {
   return (
@@ -24,6 +27,12 @@ const Sidebar = () => {
                 </li>
                 <li>
                     <span>Orders</span>
+                </li>
+                <li>
+                    <span>Delivery</span>
+                </li>
+                <li>
+                    <span>Stats</span>
                 </li>
                 <li>
                     <span>Notifications</span>
