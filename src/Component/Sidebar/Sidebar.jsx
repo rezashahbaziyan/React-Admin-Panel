@@ -20,10 +20,12 @@ const Sidebar = () => {
         <hr />
         <div className='center'> 
             <ul>
+                <p className="title">MAIN</p>
                 <li>
                     <GridViewOutlinedIcon className='icon'/>
                     <span>Dashboard</span>
                 </li>
+                <p className="title">LISTS</p>
                 <li>
                     <PersonOutlineOutlined className="icon"/>
                     <span>Users</span>
@@ -40,6 +42,7 @@ const Sidebar = () => {
                     <LocalShippingIcon className='icon'/>
                     <span>Delivery</span>
                 </li>
+                <p className="title">USEFUL</p>
                 <li>
                     <InsertChartIcon className='icon'/>
                     <span>Stats</span>
@@ -48,6 +51,7 @@ const Sidebar = () => {
                     <NotificationsNoneIcon className='icon'/>
                     <span>Notifications</span>
                 </li>
+                <p className="title">SERVICE</p>
                 <li>
                     <SettingsSystemDaydreamOutlinedIcon className='icon'/>
                     <span>System Health</span>
@@ -60,6 +64,7 @@ const Sidebar = () => {
                     <SettingsIcon className='icon'/>
                     <span>Settings</span>
                 </li>
+                <p className="title">USER</p>
                 <li>
                     <AccountCircleOutlinedIcon className='icon'/>
                     <span>Profile</span>
