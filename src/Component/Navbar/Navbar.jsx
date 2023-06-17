@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Navbar.scss";
+import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 
 const Navbar = () => {
   return (
@@ -7,6 +8,7 @@ const Navbar = () => {
       <div className="wrapper">
         <div className='search'>
           <input type="text" placeholder='Search...' />
+          <SearchOutlinedIcon/>
         </div>
       </div>
     </div>
