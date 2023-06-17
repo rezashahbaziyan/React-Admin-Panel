@@ -16,6 +16,30 @@ const Navbar = () => {
             <LanguageOutlinedIcon/>
             English
           </div>
+          <div className="item">
+            <LanguageOutlinedIcon/>
+          </div>
+          <div className="item">
+            <LanguageOutlinedIcon/>
+          </div>
+          <div className="item">
+            <LanguageOutlinedIcon/>
+          </div>
+          <div className="item">
+            <LanguageOutlinedIcon/>
+          </div>
+          <div className="item">
+            <LanguageOutlinedIcon/>
+          </div>
+          <div className="item">
+            <LanguageOutlinedIcon/>
+          </div>
+          <div className="item">
+            <LanguageOutlinedIcon/>
+          </div>
+          <div className="item">
+            <LanguageOutlinedIcon/>
+          </div>
         </div>
       </div>
     </div>
