@@ -2,7 +2,7 @@ import React from 'react';
 import "./Navbar.scss";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
-import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeoutlined";
+import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import FullscreenExitOutlinedIcon from '@mui/icons-material/FullscreenExitOutlined';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import ListOutlinedIcon from '@mui/icons-material/ListAltOutlined';
@@ -19,11 +19,11 @@ const Navbar = () => {
         </div>
         <div className="items">
           <div className="item">
-            <DarkModeOutlinedIcon/>
+            <LanguageOutlinedIcon/>
             English
           </div>
           <div className="item">
-            <FullscreenExitOutlinedIcon/>
+            <DarkModeOutlinedIcon/>
           </div>
           <div className="item">
             <FullscreenExitOutlinedIcon/>
