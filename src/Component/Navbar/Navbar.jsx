@@ -6,7 +6,7 @@ import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import FullscreenExitOutlinedIcon from '@mui/icons-material/FullscreenExitOutlined';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import ListOutlinedIcon from '@mui/icons-material/ListAltOutlined';
-
+import avatar from "../../img/92777471.jpg";
 
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
           <div className="item">
             <img
-              src=''
+              src={avatar}
               alt=''
               className='avatar'
             />
