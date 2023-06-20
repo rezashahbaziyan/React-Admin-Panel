@@ -12,7 +12,7 @@ const Widget = () => {
             <span className="link">See all user</span>
         </div>
         <div className="right">
-            <div className="percentage">
+            <div className="percentage positive">
                 <KeyboardArrowUpIcon/>
                 20 %
             </div>
