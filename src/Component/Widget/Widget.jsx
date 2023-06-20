@@ -3,7 +3,24 @@ import "./Widget.scss";
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 
-const Widget = () => {
+
+
+
+const Widget = ({type}) => {
+  let data;
+
+  switch (type) {
+    case "user":
+        data={
+            title:"USERS",
+            isMoney: false,
+            link:"See all users",
+            icon: <PersonOutlinedIcon className='icon'/>,
+        };
+        break;
+      default:
+        break;
+  }
   return (
     <div className='widget'>
         <div className="left">
