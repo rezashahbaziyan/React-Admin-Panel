@@ -7,8 +7,6 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 
 
 
-
-
 const Featured = () => {
   return (
     <div className='featured'>
