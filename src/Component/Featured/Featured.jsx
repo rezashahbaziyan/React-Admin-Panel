@@ -2,11 +2,6 @@ import React from 'react';
 import "./Featured.scss";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 
-
-
-
-
-
 const Featured = () => {
   return (
     <div className='featured'>
