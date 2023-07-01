@@ -40,5 +40,11 @@
             color: gray;
             text-align: center;
         }
+        .summary{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
     }
 }
