@@ -14,7 +14,7 @@ const Featured = () => {
         <div className="bottom">
             <div className="featuredChart">
                 {/* blue circle line */}
-                <CircularProgressbar value={70} text='70%'/> 
+                <CircularProgressbar value={70} text='70%' strokeWidth={1}/> 
             </div>
         </div>
     </div>
